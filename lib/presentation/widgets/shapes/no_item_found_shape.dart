@@ -9,11 +9,14 @@ class NoItemFoundShape extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Column(
-        children: [
-          Image.asset(ImageAssets.searchImg),
-          Text('No Item Yet',style: TextStylesManager.mediumStyle(fontSize: 30.sp),)
-        ],
+      child: Padding(
+        padding:  EdgeInsets.only(top: 30.h),
+        child: Column(
+          children: [
+            Image.asset(ImageAssets.searchImg),
+            Text('No Item Yet',style: TextStylesManager.mediumStyle(fontSize: 30.sp),)
+          ],
+        ),
       ),
     );
   }

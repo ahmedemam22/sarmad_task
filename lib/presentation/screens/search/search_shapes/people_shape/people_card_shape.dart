@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sarmad_task/data/model/data_display_model.dart';
 import 'package:sarmad_task/presentation/widgets/shapes/text_with_icon_shape.dart';
 
-import '../../../../constant/colors.dart';
+import '../../../../../constant/colors.dart';
 
 class PeopleCardShape extends StatelessWidget {
   const PeopleCardShape({Key? key, required this.peopleData}) : super(key: key);

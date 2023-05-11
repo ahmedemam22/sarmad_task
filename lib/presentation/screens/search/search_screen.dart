@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sarmad_task/presentation/screens/search/search_shapes/filter_shapes/people_items_shape.dart';
+import 'package:sarmad_task/presentation/screens/search/search_shapes/people_shape/people_items_shape.dart';
 import 'package:sarmad_task/presentation/screens/search/search_shapes/search_header_shape.dart';
 
 class SearchScreen extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sarmad_task/bloc/cubit/search/search_cubit.dart';
-import 'package:sarmad_task/presentation/screens/search/search_shapes/people_card_shape.dart';
+import 'package:sarmad_task/presentation/screens/search/search_shapes/people_shape/people_card_shape.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sarmad_task/presentation/widgets/shapes/custom_error_shape.dart';
 import 'package:sarmad_task/presentation/widgets/shimmer/people_data_shimmer_shape.dart';
